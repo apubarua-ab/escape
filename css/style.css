@@ -1,0 +1,530 @@
+/*fonts*/
+
+@font-face {
+	src: url(../fonts/Brandon_light.otf);
+	font-family: Brandon_light;
+}
+@font-face {
+	src: url(../fonts/Brandon_reg.otf);
+	font-family: Brandon_reg;
+}
+@font-face {
+	src: url(../fonts/Brandon_med.otf);
+	font-family: Brandon_med;
+}
+@font-face {
+	src: url(../fonts/Brandon_bld.otf);
+	font-family: Brandon_bld;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+}
+h1 {
+    font-family: Brandon_light;
+    font-weight: 300;
+    font-size: 50px;
+}
+span {
+    font-family: Brandon_bld;
+    font-weight: 700;
+}
+p {
+    font-family: Brandon_reg;
+    font-weight: 400;
+    font-size: 18px;
+    color: #777777;
+}
+
+/*header start*/
+
+header {
+	background-image: url(../images/banner.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: top;
+}
+.container {
+	width: 80%;
+	margin: 0 auto;
+}
+.menu-content {
+    overflow: hidden;
+    padding: 30px 0;
+}
+.logo {
+	width: 15%;
+	float: left;
+}
+.logo  img {
+    width: 100%;
+}
+.menu {
+	width: 70%;
+	float: right;
+	margin-top: 7px;
+}
+.menu ul {
+    float: right;
+}
+.menu ul li {
+    float: left;
+    list-style: none;
+}
+.menu ul li a {
+    font-family: Brandon_med;
+    font-weight: 500;
+    font-size: 18px;
+    color: #ffffff;
+    text-transform: capitalize;
+    text-decoration: none;
+    margin-right: 30px;
+    border-bottom: 2px solid transparent;
+    transition: .5s;
+}
+.menu ul li a:hover {
+    border-bottom: 2px solid white;
+}
+.menu ul li:last-child a {
+	margin-right: 0;
+}
+.banner-content {
+    text-align: center;
+    color: white;
+    padding: 130px 0;
+}
+.banner-content p {
+    font-family: Brandon_light;
+    font-weight: 300;
+    font-size: 32px;
+    color: #ffffff;
+}
+.banner-content h1 {
+    font-family: Brandon_bld;
+    font-weight: 700;
+    font-size: 66px;
+    text-transform: uppercase;
+    margin: 20px 0 60px;
+}
+.banner-content button {
+    font-family: Brandon_bld;
+    font-weight: 700;
+    font-size: 25px;
+    color: white;
+    text-transform: capitalize;
+    padding: 12px 60px;
+    background: transparent;
+    border: 2px solid white;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: .4s;
+    outline: none;
+}
+.banner-content button:hover {
+	background: #23203f;
+    border: 2px solid transparent;
+}
+
+/*header end*/
+
+/*development start*/
+
+.development {
+	padding: 70px 0;
+}
+.development-content {
+	overflow: hidden;
+}
+.d-content-left {
+	width: 66%;
+	float: left;
+}
+.d-content-left h1 {
+    padding-bottom: 30px;
+}
+.d-content-left p:last-child {
+    padding-top: 30px;
+}
+.d-content-right {
+	width: 25%;
+	float: right;
+}
+
+/*development end*/
+
+/*branding start*/
+
+.branding {
+	padding: 70px 0;
+	background-color: #fafafa;
+}
+.branding-content {
+	overflow: hidden;
+}
+.b-content-left {
+	width: 25%;
+	float: left;
+}
+.b-content-right {
+	width: 61%;
+	float: right;
+}
+.b-content-right h1 {
+    padding-bottom: 30px;
+}
+.b-content-right p:last-child {
+	padding-top: 30px;
+}
+
+/*branding end*/
+
+/*service start*/
+
+.service {
+	padding: 80px 0;
+}
+.s-overflow {
+	overflow: hidden;
+}
+.service-left {
+	width: 46%;
+	float: left;
+}
+.service-content {
+	overflow: hidden;
+}
+.s-icon {
+	width: 20%;
+	float: left;
+}
+.s-icon i {
+    font-size: 25px;
+    width: 50px;
+    height: 50px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    line-height: 50px;
+    border-radius: 50%;
+}
+.s-description {
+	width: 77%;
+	float: left;
+}
+.s-description h3 {
+    font-family: Brandon_med;
+    font-weight: 500;
+    font-size: 22px;
+    color: #222222;
+    margin-bottom: 10px;
+}
+.service-right {
+	width: 46%;
+	float: right;
+}
+
+.service-margin {
+	margin: 30px 0;
+}
+
+/*service end*/
+
+/*client start*/
+
+.client {
+    padding: 80px 0;
+    background-color: #fafafa;
+}
+.client-des {
+	text-align: center;
+	padding-bottom: 40px;
+}
+.client-content {
+	overflow: hidden;
+}
+.client-left {
+	width: 25%;
+	float: left;
+}
+.client-left img {
+	border-radius: 50%;
+	width: 100%;
+}
+.client-right {
+	width: 69%;
+	float: right;
+	margin-top: 38px;
+}
+.client-right h3 {
+    font-family: Brandon_reg;
+    font-weight: 400;
+    font-size: 26px;
+    color: #777777;
+}
+.client-right p {
+    padding-top: 10px;
+    font-family: Brandon_reg;
+    font-weight: 400;
+    font-size: 20px;
+    color: #7690c5;
+}
+
+#talkbubble {
+    width: 526px;
+    height: 100px;
+    padding: 25px 40px;
+    background: #ffffff;
+    position: relative;
+    border-radius: none;
+}
+#talkbubble:before {
+    content: "";
+    position: absolute;
+    right: 100%;
+    top: 55px;
+    width: 0;
+    height: 0;
+    border-top: 20px solid transparent;
+    border-right: 32px solid #ffffff;
+    border-bottom: 20px solid transparent;
+}
+.client-content-2 {
+	overflow: hidden;
+	padding-top: 20px;
+}
+.client-left-2 {
+	width: 69%;
+	float: left;
+	margin-top: 38px;
+}
+#talkbubble-2 {
+	width: 526px;
+    height: 100px;
+    padding: 25px 40px;
+    background: #ffffff;
+    position: relative;
+    border-radius: none;
+}
+#talkbubble-2:before {
+    content: "";
+    position: absolute;
+    right: -5%;
+    top: 55px;
+    width: 0;
+    height: 0;
+    border-top: 20px solid transparent;
+    border-left: 32px solid #ffffff;
+    border-bottom: 20px solid transparent;
+}
+
+.client-left-2 h3 {
+    font-family: Brandon_reg;
+    font-weight: 400;
+    font-size: 26px;
+    color: #777777;
+}
+.client-left-2 p {
+	padding-top: 10px;
+    font-family: Brandon_reg;
+    font-weight: 400;
+    font-size: 20px;
+    color: #7690c5;
+}
+.client-right-2 {
+	width: 25%;
+	float: right;
+}
+.client-right-2 img {
+	border-radius: 50%;
+	width: 100%;
+}
+
+/*client end*/
+
+/*partner start*/
+
+.partner {
+	padding: 50px 0;
+	text-align: center;
+}
+.partner ul li {
+    display: inline;
+}
+.partner ul li img { 
+    margin: 0 30px;
+    width: 140px;
+}
+
+/*partner end*/
+
+/*team start*/
+
+.team {
+	padding: 80px 0;
+	background-color: #111111;
+}
+.team-des {
+	text-align: center;
+	color: white;
+}
+.team-content {
+    padding: 70px 0 40px;
+}
+.team-common {
+    overflow: hidden;
+    text-align: center;
+    color: #ebebeb;
+}
+.team-common img {
+	width: 250px;
+    border-radius: 50%;
+    margin-bottom: 15px;
+}
+.team-common h4 {
+    font-family: Brandon_bld;
+    font-weight: 700;
+    font-size: 18px;
+}
+.team-common p {
+    font-family: Brandon_reg;
+	font-weight: 400;
+	font-size: 18px;
+    color: #ebebeb;
+	margin: 5px 0 10px;
+}
+.team-icon ul li {
+    list-style: none;
+    display: inline;
+}
+.team-icon ul li a i {
+    width: 40px;
+    height: 40px;
+    border: 2px solid white;
+    color: white;
+    line-height: 40px;
+    border-radius: 50%;
+    font-size: 20px;
+    margin: 0 5px;
+    transition: .6s;
+}
+.team-icon ul li a i:hover {
+	background-color: white;
+	color: black;
+}
+.team-left {
+    width: 33%;
+    float: left;   
+}
+
+.team-middle {
+	width: 33%;
+    float: left; 
+}
+.team-right {
+	width: 33%;
+    float: right; 
+}
+.team-p {
+	text-align: center;
+    padding: 0 120px 0;
+    line-height: 1.5;
+}
+.team-p p {
+    font-family: Brandon_reg;
+    font-weight: 400;
+    font-size: 20px;
+    color: white;
+}
+/*team end*/
+
+/*form start*/
+
+.form {
+	padding: 80px 0 0;
+	background-color: #7690c5;
+}
+.form-part {
+    overflow: hidden;
+    border-bottom: 1px solid white;
+    padding-bottom: 80px;
+}
+.form-left {
+	color: white;
+	width: 55%;
+	float: left;
+}
+.form-left p {
+    color: white;
+	padding: 10px 0 25px;
+}
+.icon-form {
+    overflow: hidden;
+}
+.icon-text-left {
+    float: left;
+    width: 47%;
+}
+.icon-text {
+	margin: 0 0 30px;
+}
+.icon-text i {
+    font-size: 20px;
+    margin-right: 10px;
+}
+.icon-text span { 
+    font-family: Brandon_reg;
+    font-weight: 400;
+    font-size: 20px;
+}
+.icon-text-right {
+    float: right;
+    width: 47%;
+}
+
+.form-right {
+    width: 40%;
+    float: right;
+}
+form input {
+	width: 88%;
+    padding: 10px 20px;
+    font-family: Brandon_med;
+    font-weight: 500;
+    font-size: 18px;
+    color: #bbbbbb;
+    border: none;
+    margin-bottom: 30px;
+    border-radius: 5px;
+    outline: none;
+}
+form textarea {
+	width: 88%;
+    padding: 10px 20px;
+    font-family: Brandon_med;
+    font-weight: 500;
+    font-size: 18px;
+    color: #bbbbbb;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+}
+/*form end*/
+
+/*footer start*/
+
+footer {
+	background-color: #7690c5;
+	padding: 30px 0;
+}
+footer p {
+	text-align: center;
+    font-family: Brandon_med;
+	font-weight: 500;
+	font-size: 16px;
+	color: white;
+	text-transform: capitalize;
+
+}
+
+/*footer end*/
